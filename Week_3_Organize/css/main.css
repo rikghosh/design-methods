@@ -1,0 +1,72 @@
+body {
+  background: #EADFCC;
+  color: black;
+  font-size: 11px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#nav {
+    position: fixed;
+}
+
+h1 {
+  font-family: "News Cycle", serif;
+  letter-spacing: 0.6em;
+  font-weight: normal;
+  padding-top: 20px;
+  text-align: left;
+}
+
+h2 {
+  letter-spacing: 0.5em; 
+  text-align: left;
+}
+
+h2 ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+
+}
+
+h2 ul li {
+    display: inline;
+    margin: 0
+}
+
+p {
+  border: 0px solid #666;
+  overflow: hidden;
+  padding: 0 0;
+  text-align: left;
+}
+
+\
+
+.container_12 {
+  background-color: #EADFCC;
+  background-repeat: repeat-y;
+  margin-bottom: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../nantes.png") repeat;
+  opacity: 0.1;
+  z-index: -10000;
+}
+
